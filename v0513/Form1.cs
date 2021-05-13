@@ -25,7 +25,9 @@ namespace v0513
         private void button1_Click(object sender, EventArgs e)
         {
             int a = 1;
+            mybutton.Visible = false;
             MessageBox.Show("" + 10 / a);
+            
         }
     }
 }
